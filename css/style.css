@@ -39,6 +39,12 @@ body {
   src: url(../font/courier-new_[allfont.net].ttf);
 }
 
+@font-face{
+  font-family: gabriola;
+  src: url(../font/gabriola.ttf);
+}
+
+
 .main {
   margin-top: 30px;
   margin-bottom: 15px;
@@ -46,7 +52,7 @@ body {
   color: white;
   padding: 20px 20px 20px 20px;
   border-radius: 10px;
-  height: 300px;
+  height:auto;
 }
 
 .button {
@@ -85,3 +91,45 @@ body {
   font-family: choco;
 }
 
+.btnlove{
+  background: none;
+  border: 0px;
+  float: right;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.text2{
+  color: white;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.context{
+  text-align: justify;
+  background: #0000009C;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: gabriola;
+  font-size: 20px;
+}
+
+.last{
+  font-size: 24px;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-style: oblique;
+}
+
+.btn{
+  background: #DADADA;
+  border: 0px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
